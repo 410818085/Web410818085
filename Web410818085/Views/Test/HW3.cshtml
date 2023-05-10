@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "HW3";
+}
+
+<h2>HW3</h2>
+
+@{
+    string[] fruit = { "蘋果", "香蕉", "荔枝", "鳳梨", "西瓜" };
+
+    <ol>
+        @foreach (var i in fruit)
+        {
+            <li>@i</li>
+        }
+    </ol>
+}
+
