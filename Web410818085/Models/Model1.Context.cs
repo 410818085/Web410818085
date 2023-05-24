@@ -13,10 +13,10 @@ namespace Web410818085.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class db410818085Entities : DbContext
+    public partial class db410818085Entities3 : DbContext
     {
-        public db410818085Entities()
-            : base("name=db410818085Entities")
+        public db410818085Entities3()
+            : base("name=db410818085Entities3")
         {
         }
     
